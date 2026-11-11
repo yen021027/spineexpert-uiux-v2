@@ -1,0 +1,12 @@
+{
+  "name": "spineexpert-uiux-v2",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Independent UI UX Pro Max spine education concept",
+  "scripts": {
+    "serve": "node scripts/server.cjs",
+    "test": "node tests/site.spec.cjs",
+    "version-assets": "node scripts/version-assets.cjs"
+  },
+  "devDependencies": {"@playwright/test":"^1.58.2","@axe-core/playwright":"^4.11.1"}
+}
